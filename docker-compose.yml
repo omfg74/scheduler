@@ -1,0 +1,22 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:12.1
+    restart: always
+    command:
+      - '-c'
+      - 'shared_buffers=256MB'
+      - '-c'
+      - 'max_connections=200'
+    environment:
+      POSTGRES_DB: scheduler
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - scheduler_data:/var/lib/postgresql/scheduler_data
+#      - ./src/main/resources/sql.init:/docker-entrypoint-initdb.d
+    ports:
+      - 5435:5432
+
+volumes:
+  scheduler_data:
