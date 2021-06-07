@@ -7,6 +7,6 @@ java -jar \
 	--classpath=libs/postgresql-42.2.8.jar \
 	--changeLogFile=changelog/db.changelog-master.xml \
 	--url="jdbc:postgresql://localhost:5435/scheduler" \
-	--username=omfg \
-	--password=101541 \
+	--username=postgres \
+	--password=postgres \
 	update
