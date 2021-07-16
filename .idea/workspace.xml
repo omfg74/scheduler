@@ -5,46 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25487a77-882c-474a-b98b-1971db1fa246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0.2/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0.2/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0.2/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/omfgdevelop/scheduler/SchedulerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/changelog/db.changelog-master.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/changelog/v0.0/2021-06-07-boats.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/changelog/v0.0/2021-06-07-current_activity.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/changelog/v0.0/2021-06-07-initial.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/changelog/v0.0/2021-06-07-initial.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/changelog/v0.0/changelog-v0.0-initial.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/libs/dbchangelog-3.1.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/libs/dbchangelog-3.6.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/libs/liquibase.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/libs/postgresql-42.2.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/updateLocalDb.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/omfgdevelop/scheduler/SchedulerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/omfgdevelop/scheduler/data/Boat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/omfgdevelop/scheduler/data/CurrentActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/omfgdevelop/scheduler/data/Schedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/omfgdevelop/scheduler/data/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/omfgdevelop/scheduler/repository/BoatRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/omfgdevelop/scheduler/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/changelog/v0.0/2021-07-17-users.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/changelog/db.changelog-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/changelog/db.changelog-master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql/changelog/v0.0/changelog-v0.0-initial.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql/changelog/v0.0/changelog-v0.0-initial.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +29,26 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -85,14 +79,16 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.SchedulerApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,9 +131,34 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623050972072">
-      <screen x="0" y="23" width="1440" height="805" />
+    <state x="320" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626473681763">
+      <screen x="0" y="23" width="1440" height="797" />
     </state>
+    <state x="320" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.797@0.23.1440.797" timestamp="1626473681763" />
     <state x="320" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.805/-226.-1057.1920.1057@0.23.1440.805" timestamp="1623050972072" />
+    <state width="958" height="204" key="GridCell.Tab.0.bottom" timestamp="1626476412420">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="958" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1626476412420" />
+    <state width="958" height="204" key="GridCell.Tab.0.center" timestamp="1626476412419">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="958" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1626476412419" />
+    <state width="958" height="204" key="GridCell.Tab.0.left" timestamp="1626476412419">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="958" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1626476412419" />
+    <state width="958" height="204" key="GridCell.Tab.0.right" timestamp="1626476412419">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="958" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1626476412419" />
+    <state x="586" y="96" width="440" height="650" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1626475512729">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="586" y="96" width="440" height="650" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.1440.797@0.23.1440.797" timestamp="1626475512729" />
+    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1626476146602">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1626476146602" />
   </component>
 </project>

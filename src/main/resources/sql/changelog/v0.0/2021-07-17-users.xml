@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog libs/dbchangelog-3.1.xsd">
+    <changeSet id="2021-06-07-initial.xml" author="a.podshivalov">
+        <sql>
+            create table users
+            (
+            name text,
+            last_name text,
+            patronymic text,
+            usename text
+            );
+
+            alter table users
+            owner to postgres;
+        </sql>
+    </changeSet>
+
+</databaseChangeLog>
